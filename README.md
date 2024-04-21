@@ -57,12 +57,7 @@ Developed by: Dhivya Dharshini B
 
 RegisterNumber: 212223240031
 ```
-Program for flipflops and verify its truth table in quartus using Verilog programming. 
-
-Developed by: Danica christa
-RegisterNumber:212223240022
-
-module SRFLIPFLOPUSINGCASE(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘case’ 
+module en(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘case’ 
   input s,r,clk, reset;
   output reg q;
   output q_bar;
